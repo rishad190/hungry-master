@@ -3,6 +3,7 @@ document.getElementById("search").addEventListener("click",function(){
     fetch("https://www.themealdb.com/api/json/v1/1/search.php?s="+inputValue.value)
     .then(res => res.json())
     .then(data => allMealData(data.meals))
+    inputValue.value = "";
 
 });
 
