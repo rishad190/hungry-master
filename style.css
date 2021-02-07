@@ -1,0 +1,39 @@
+.card-box img {
+  width: 278px;
+  height: 198px;
+  border-radius: 5%;
+}
+.card-box h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+.card-box {
+  width: 280px;
+  box-shadow: 10px 10px 15px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  float: left;
+  height: 300px;
+  background-color: lightgray;
+  border-radius: 5%;
+}
+.mealBox {
+  width: 500px;
+}
+
+/* food-details-box */
+.food-box img {
+  width: 600px;
+  height: 300px;
+  margin: 100px 300px;
+  border-radius: 5%;
+}
+food-box h2 {
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+}
+
+.food-box h5 {
+  margin: 50px 0px;
+}
